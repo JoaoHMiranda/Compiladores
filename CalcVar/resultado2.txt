@@ -1,0 +1,3 @@
+Código: int x = "texto"; // Tipo errado
+x = x + 1;
+Erro: Caractere inválido: "

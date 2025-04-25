@@ -1,0 +1,2 @@
+int x = "texto"; // Tipo errado
+x = x + 1;

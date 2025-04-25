@@ -1,0 +1,6 @@
+Código: int alpha = 100; // valor inicial
+alpha = alpha - 50;
+
+Tokens: [[INT: int], [IDENT: alpha], [IGUAL: =], [NUMERO: 100], [PONTO_VIRGULA: ;], [IDENT: alpha], [IGUAL: =], [IDENT: alpha], [MENOS: -], [NUMERO: 50], [PONTO_VIRGULA: ;], [EOF: None]]
+AST: [Declaracao: alpha = 100, Atribuicao: alpha = (alpha - 50)]
+Semântica: Programa válido

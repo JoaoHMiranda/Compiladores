@@ -1,0 +1,20 @@
+// Testando strings e literais de ponto flutuante
+float precoProduto = 999.99;
+int indice = 0;
+
+// Aqui usamos uma string com símbolos pontuais
+print("Preço do produto: $999.99 (aprox.)");
+
+// Testando valores flutuantes com zero
+float minimo = 0.0;
+float maximo = 100.0;
+
+// Um if para verificação
+if (precoProduto >= maximo) {
+    print("Valor muito alto!");
+} else {
+    print("Valor aceitável, índice: ");
+    print(indice);
+}
+
+// Comentário no final do arquivo sem nova linha

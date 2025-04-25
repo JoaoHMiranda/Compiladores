@@ -1,0 +1,6 @@
+Código: int a = 7;
+int b = 3;
+a = a + b - 2;
+Tokens: [[INT: int], [IDENT: a], [IGUAL: =], [NUMERO: 7], [PONTO_VIRGULA: ;], [INT: int], [IDENT: b], [IGUAL: =], [NUMERO: 3], [PONTO_VIRGULA: ;], [IDENT: a], [IGUAL: =], [IDENT: a], [MAIS: +], [IDENT: b], [MENOS: -], [NUMERO: 2], [PONTO_VIRGULA: ;], [EOF: None]]
+AST: [Declaracao: a = 7, Declaracao: b = 3, Atribuicao: a = ((a + b) - 2)]
+Semântica: Programa válido

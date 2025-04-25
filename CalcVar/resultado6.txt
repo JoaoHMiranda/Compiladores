@@ -1,0 +1,7 @@
+Código: int a = 1;
+int b = 2;
+int c = a + b - 3 + 4 - 5;
+
+Tokens: [[INT: int], [IDENT: a], [IGUAL: =], [NUMERO: 1], [PONTO_VIRGULA: ;], [INT: int], [IDENT: b], [IGUAL: =], [NUMERO: 2], [PONTO_VIRGULA: ;], [INT: int], [IDENT: c], [IGUAL: =], [IDENT: a], [MAIS: +], [IDENT: b], [MENOS: -], [NUMERO: 3], [MAIS: +], [NUMERO: 4], [MENOS: -], [NUMERO: 5], [PONTO_VIRGULA: ;], [EOF: None]]
+AST: [Declaracao: a = 1, Declaracao: b = 2, Declaracao: c = ((((a + b) - 3) + 4) - 5)]
+Semântica: Programa válido

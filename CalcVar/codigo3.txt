@@ -1,0 +1,2 @@
+y = 10; // Não declarada
+int x = y - 5;

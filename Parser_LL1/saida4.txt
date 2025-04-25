@@ -1,0 +1,11 @@
+Pilha                     Entrada                                  Ação                          
+-----------------------------------------------------------------------------------------------
+$ S                       if b then a $                            => Aplicar produção: S -> if E then S else S
+$ S else S then E if      if b then a $                            => Match 'if'
+$ S else S then E         b then a $                               => Aplicar produção: E -> b
+$ S else S then b         b then a $                               => Match 'b'
+$ S else S then           then a $                                 => Match 'then'
+$ S else S                a $                                      => Aplicar produção: S -> a
+$ S else a                a $                                      => Match 'a'
+$ S else                  $                                        => Erro: esperado 'else', encontrado '$'
+Parsing abortado.

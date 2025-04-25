@@ -1,0 +1,2 @@
+int alpha = 100; // valor inicial
+alpha = alpha - 50;

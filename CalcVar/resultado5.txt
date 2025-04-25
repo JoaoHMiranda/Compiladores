@@ -1,0 +1,6 @@
+Código: int a = 10;
+b = a + 2; // 'b' não foi declarada
+
+Tokens: [[INT: int], [IDENT: a], [IGUAL: =], [NUMERO: 10], [PONTO_VIRGULA: ;], [IDENT: b], [IGUAL: =], [IDENT: a], [MAIS: +], [NUMERO: 2], [PONTO_VIRGULA: ;], [EOF: None]]
+AST: [Declaracao: a = 10, Atribuicao: b = (a + 2)]
+Erro semântico: Variável 'b' não declarada

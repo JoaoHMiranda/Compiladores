@@ -1,0 +1,18 @@
+// Loop com diferentes operações
+int i = 0; 
+while (i < 5) {
+    // Somando e multiplicando
+    i = i + 1 * 2; // i incrementado
+    float valorCalc = 1.2;
+    valorCalc = valorCalc * i;
+    print("valorCalc em iteracao = ");
+    print(valorCalc);
+}
+
+// Testando maior ou igual
+if (i >= 5) {
+    print("Loop encerrado!");
+}
+
+// Comentário sobre algo que não gera tokens // outro comentário
+// Fim

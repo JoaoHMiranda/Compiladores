@@ -1,0 +1,2 @@
+int a = 10;
+b = a + 2; // 'b' não foi declarada

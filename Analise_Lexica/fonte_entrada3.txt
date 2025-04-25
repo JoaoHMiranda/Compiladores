@@ -1,0 +1,5 @@
+float temp = 10.5;
+while (temp >= 0.0) { // loop decrescente
+temp = temp - 2.5;
+print("temperatura atual");
+}

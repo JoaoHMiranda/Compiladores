@@ -1,0 +1,7 @@
+Código: y = 10; // Não declarada
+int x = y - 5;
+Tokens: [[IDENT: y], [IGUAL: =], [NUMERO: 10], [PONTO_VIRGULA: ;], [INT: int], [IDENT: x], [IGUAL: =], [IDENT: y], [MENOS: -], [NUMERO: 5], [PONTO_VIRGULA: ;], [EOF: None]]
+AST: [Atribuicao: y = 10, Declaracao: x = (y - 5)]
+Erro semântico: Variável 'y' não declarada
+Erro semântico: Variável 'y' não declarada
+Erro semântico: Operação com tipos inválidos

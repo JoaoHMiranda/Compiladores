@@ -1,0 +1,14 @@
+// Teste extra de operadores e identificadores
+int _valor1 = 0;
+float _mediaDados = 12.0; // inicialização
+
+_valor1 = 10;
+if (_valor1 <= 10) {
+    // verificação simples
+    _mediaDados = _mediaDados + 3.14;
+    _resultado_final = _mediaDados != 15.14;
+} else {
+    // caso alternativo
+    _aux = "Texto de exemplo";
+    print(_aux);
+}

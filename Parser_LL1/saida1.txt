@@ -1,0 +1,14 @@
+Pilha                     Entrada                                  Ação                          
+-----------------------------------------------------------------------------------------------
+$ S                       if b then a else a $                     => Aplicar produção: S -> if E then S else S
+$ S else S then E if      if b then a else a $                     => Match 'if'
+$ S else S then E         b then a else a $                        => Aplicar produção: E -> b
+$ S else S then b         b then a else a $                        => Match 'b'
+$ S else S then           then a else a $                          => Match 'then'
+$ S else S                a else a $                               => Aplicar produção: S -> a
+$ S else a                a else a $                               => Match 'a'
+$ S else                  else a $                                 => Match 'else'
+$ S                       a $                                      => Aplicar produção: S -> a
+$ a                       a $                                      => Match 'a'
+$                         $                                        => Match '$'
+Entrada aceita!

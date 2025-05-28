@@ -51,7 +51,7 @@ idade = 10
 pi = 3.14
 ativo = true
 
-print("Olá,", nome) # Saída: Olá, Mundo
+print("Olá,", nome)  # Saída: Olá, Mundo
 
 ```
 
@@ -60,12 +60,13 @@ print("Olá,", nome) # Saída: Olá, Mundo
 ```bash
 # Array (lista)
 numeros = [10, 20, 30, 40]
-print("O primeiro número é:", numeros[0]) # Saída: O primeiro número é: 10
-numeros[1] = 25 # Modifica um elemento
+print("O primeiro número é:", numeros[0])  # Saída: O primeiro número é: 10
+numeros[1] = 25  # Modifica um elemento
 
 # Object (dicionário)
 pessoa = {"nome": "Ana", "idade": 32}
-print(pessoa["nome"], "tem", pessoa["idade"], "anos.") # Saída: Ana tem 32 anos.
+print(pessoa["nome"], "tem", pessoa["idade"], "anos.")  # Saída: Ana tem 32 anos.
+
 ```
 
 3. Estruturas de Controle
@@ -86,7 +87,8 @@ while i <= 5
     sum += i
     i += 1
 end while
-print("A soma de 0 a 5 é:", sum) # Saída: A soma de 0 a 5 é: 15
+print("A soma de 0 a 5 é:", sum)  # Saída: A soma de 0 a 5 é: 15
+
 
 ```
 4. Funções e Recursão
@@ -104,7 +106,8 @@ func fatorial(n)
 end func
 
 resultado = fatorial(5)
-print("Fatorial de 5 é:", resultado) # Saída: Fatorial de 5 é: 120
+print("Fatorial de 5 é:", resultado)  # Saída: Fatorial de 5 é: 120
+
 ```
 
 ## 📂 Arquivos de Exemplo

@@ -17,7 +17,7 @@ A MiniLang suporta um conjunto robusto de funcionalidades essenciais para uma li
 - **Operadores:**
   - **Aritméticos:** `+`, `-`, `*`, `/`, `%`, `**` (potência)
   - **Relacionais:** `==`, `!=`, `<`, `>`, `<=`, `>=`
-  - **Lógicos:** `&&` (e), `||` (ou), `!` (não)
+  - **Lógicos:** `&&` / `and` (e), `||` / `or` (ou), `!` / `not` (não)
 - **Estruturas de Controle:**
   - Condicionais: `if` / `else` / `end`
   - Laços de repetição: `while` / `end`
@@ -96,17 +96,17 @@ print("A soma de 0 a 5 é:", sum)  # Saída: A soma de 0 a 5 é: 15
 ```bash
 # Função para calcular o fatorial de forma recursiva
 func fatorial(n)
-    # Caso base
+    # Caso base: fatorial de 0 ou 1 é 1.
     if n < 2
         return 1
     end if
 
-    # Passo recursivo
+    # Passo recursivo: n * fatorial(n-1)
     return n * fatorial(n - 1)
 end func
 
 resultado = fatorial(5)
-print("Fatorial de 5 é:", resultado)  # Saída: Fatorial de 5 é: 120
+print("O fatorial de 5 é:", resultado)  # Saída: Fatorial de 5 é: 120
 
 ```
 

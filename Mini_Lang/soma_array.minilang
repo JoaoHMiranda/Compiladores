@@ -1,0 +1,10 @@
+# soma_array.minilang
+# Soma todos os elementos de um array literal
+arr = [1, 2, 3, 4, 5]
+sum = 0
+i = 0
+while i < 5
+    sum += arr[i]
+    i += 1
+end while
+print("Soma dos elementos:", sum)

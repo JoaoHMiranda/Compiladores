@@ -1,0 +1,8 @@
+# obj.minilang 
+# Criação e acesso a propriedades de objeto
+
+person = {"name": "Alice", "age": 30}
+
+# As chamadas de 'print' devem usar parênteses.
+print("Nome:", person["name"])
+print("Idade:", person["age"])

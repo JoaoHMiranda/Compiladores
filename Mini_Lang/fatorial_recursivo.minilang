@@ -1,0 +1,27 @@
+# fatorial_recursivo.minilang
+# Testa a capacidade de recursão da linguagem
+# calculando o fatorial de um número.
+
+func fatorial(n)
+    # Caso base: fatorial de 0 ou 1 é 1.
+    if n < 2
+        return 1
+    end if
+
+    # Passo recursivo: n * fatorial(n-1)
+    return n * fatorial(n - 1)
+end func
+
+# ---- Testes ----
+
+# Chama a função e imprime o resultado.
+# 5! = 5 * 4 * 3 * 2 * 1 = 120
+resultado = fatorial(5)
+print("O fatorial de 5 é:", resultado)
+
+# Teste com outro valor para garantir.
+# 7! = 5040
+print("O fatorial de 7 é:", fatorial(7))
+
+# Teste com o caso base.
+print("O fatorial de 1 é:", fatorial(1))
